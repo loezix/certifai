@@ -16,6 +16,6 @@ public class RegisterUserService implements RegisterUser {
 
   @Override
   public User execute(User user) {
-    return userGateway.save(user);
+    return userGateway.persist(user);
   }
 }

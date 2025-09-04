@@ -4,5 +4,5 @@ import com.certifai.user.domain.User;
 
 public interface UserGateway {
 
-  User save(User domain);
+  User persist(User user);
 }

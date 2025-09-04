@@ -17,7 +17,7 @@ public class UserPersistenceJpaAdapter implements UserGateway {
   }
 
   @Override
-  public User save(User user) {
+  public User persist(User user) {
     final var result = repository.save(outputMapper.toEntity(user));
     return outputMapper.toDomain(result);
   }
