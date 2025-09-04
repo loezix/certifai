@@ -1,9 +1,9 @@
-package com.certifai.user.infrastructure.controller;
+package com.certifai.user.gateway.presentation.http;
 
 import com.certifai.user.application.port.in.RegisterUser;
 import com.certifai.user.application.service.mapper.InputMapper;
-import com.certifai.user.infrastructure.controller.resource.UserRequestBody;
-import com.certifai.user.infrastructure.controller.resource.UserResource;
+import com.certifai.user.gateway.presentation.http.resource.UserRequestBody;
+import com.certifai.user.gateway.presentation.http.resource.UserResource;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;

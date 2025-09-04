@@ -1,4 +1,4 @@
-package com.certifai.user.infrastructure.persistence.jpa;
+package com.certifai.user.gateway.persistence.jpa;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

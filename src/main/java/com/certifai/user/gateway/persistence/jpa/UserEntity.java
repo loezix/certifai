@@ -1,4 +1,4 @@
-package com.certifai.user.infrastructure.persistence.jpa;
+package com.certifai.user.gateway.persistence.jpa;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
