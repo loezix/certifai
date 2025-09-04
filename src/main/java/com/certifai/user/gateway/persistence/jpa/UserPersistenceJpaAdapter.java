@@ -1,9 +1,8 @@
-package com.certifai.user.gateway.persistence;
+package com.certifai.user.gateway.persistence.jpa;
 
 import com.certifai.user.application.port.out.UserGateway;
 import com.certifai.user.domain.User;
 import com.certifai.user.application.service.mapper.OutputMapper;
-import com.certifai.user.gateway.persistence.jpa.UserRepositoryJpa;
 import org.springframework.stereotype.Component;
 
 @Component
